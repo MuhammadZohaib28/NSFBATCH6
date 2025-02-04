@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 
@@ -55,5 +56,131 @@ header{
     padding: 0.4rem;
     border-radius: 0.1rem;
     transition: all ease 0.4s;
+}
+
+
+
+
+.main-section{
+    /* background-color: red; */
+    height: calc(100vh - 3.75rem);
+    padding: 0 6rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5rem;
+}
+
+.main-section-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    position: relative;
+}
+
+
+.main-section-left-img{
+    height: 1rem;
+}
+
+.main-section-left ul li {
+    list-style: none;
+}
+
+.main-section-left-follow-me{
+    
+}
+
+.main-section-left-line{
+    position: absolute;
+    height: 40px;
+    width: 2px;
+    background-color: rgb(238, 238, 238);
+    top: 108px;
+    left: 11px;
+    border-radius: 2rem;
+}
+
+.main-section-left-followBtn{
+    writing-mode: sideways-lr;
+    text-orientation: mixed;
+    background-color: #585858;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+
+.main-section-left ul{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.main-section-right-first span{
+    color: green;
+}
+
+
+.main-section-right-first h1{
+    color: whitesmoke;
+    font-size: 3.5rem;
+}
+
+
+.main-section-right-second ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+
+.dot{
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 7rem;
+    background-color: green;
+    top: 5px;
+    left: 7.1rem;
+}
+
+.dot-2{
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 7rem;
+    background-color: green;
+    top: 5px;
+    left: 13.7rem;
+}
+
+.main-section-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.main-section-right-third button{
+    outline: none;
+    background-color: green;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 3px;
+    color: whitesmoke;
+}
+
+.main-section-right-third .btn{
+    outline: none;
+    background-color: transparent;
+    
+    padding: 0.6rem;
+    border: 1px solid green;
+    border-radius: 3px;
+    color: whitesmoke;
 }
 
