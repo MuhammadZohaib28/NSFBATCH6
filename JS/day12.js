@@ -7,7 +7,6 @@ console.log(11 / 10)
 console.log(11 * 10)
 
 
-
 let numberOne = 5;
 let numbertwo = 10;
 
@@ -67,3 +66,7 @@ console.log(num1 && num2, "AND")
 console.log(num1 || num2, "OR")
 
 console.log(!num1)
+
+
+let avbc = "10" - 12
+console.log(typeof(avbc))
