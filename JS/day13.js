@@ -33,8 +33,6 @@ else if (userMarks >= 80) {
 }
 
 
-
-
 let temperature = 0;
 
 if (temperature > 40) {
