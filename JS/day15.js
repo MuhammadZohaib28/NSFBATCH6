@@ -28,5 +28,5 @@ if (fruitsNames.includes("Mango") && fruitsNames.includes("Banana")) {
     console.log("Summer")
 } else {
 
-    console.log("Winter")
+    console.log("   Winter")
 }
