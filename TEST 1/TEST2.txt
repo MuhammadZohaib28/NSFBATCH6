@@ -1,0 +1,16 @@
+Create an array of objects called books where each object represents a book with the following properties: title, author, and year. Add at least 4 book objects to the array. Use a for loop to print only the books that were published after the year 2000.
+
+
+
+Create an array called numbers with the following elements: [10, 20, 30, 40, 50]. Write a program to calculate the sum of all elements in the array and print the result.
+
+
+
+Write a JavaScript program that checks if a number is positive, negative, or zero. Use an if-else statement to achieve this.
+
+
+
+Create an array called fruits that contains the following elements: "Apple", "Banana", "Orange", "Mango". Write a program to print the second element of the array.
+
+
+Write a JavaScript program that takes a day of the week (e.g., "Monday", "Tuesday", etc.) and uses a switch statement to print the number of the day (e.g., Monday = 1, Tuesday = 2, etc.).
